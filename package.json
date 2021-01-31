@@ -1,5 +1,5 @@
 {
-  "name": "skelly",
+  "name": "notable_challenge",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.12.10",
