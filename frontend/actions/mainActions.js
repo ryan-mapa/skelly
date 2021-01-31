@@ -19,7 +19,7 @@ export const receiveAppointments = (appointments) => {
 
 export const fetchPhysicians = () => dispatch => {
   return ApiUtil.fetchPhysicians().then(
-    docs => dispatch(receiveAppointments(docs)));
+    docs => dispatch(receivePhysicians(docs)));
 }
 
 export const fetchAppointments = (physId) => dispatch => {

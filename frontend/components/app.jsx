@@ -1,8 +1,9 @@
 import React from 'react';
+import MainContainter from './main';
 
 const App = (props) => (
   <>
-    This is the app!
+    <MainContainter />
   </>
 )
 

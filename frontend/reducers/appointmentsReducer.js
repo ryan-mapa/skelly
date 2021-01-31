@@ -5,7 +5,8 @@ const appointmentsReducer = (state = {}, action) => {
 
   switch (action.type) {
     case RECEIVE_APPOINTMENTS:
-      return Object.assign({}, state, action.payload.appointments)
+      // return Object.assign({}, state, action.appointments)
+      return action.appointments;
     default:
       return state;
   }

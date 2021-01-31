@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-nav {
+  padding: 50px;
+  background-color: rgb(228, 227, 227);
+  width: 200px;
+}
+
+.right {
+  padding: 50px;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appointment div {
+  margin: 10px;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}

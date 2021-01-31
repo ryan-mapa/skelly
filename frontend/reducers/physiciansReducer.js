@@ -5,7 +5,7 @@ const physiciansReducer = (state = {}, action) => {
 
   switch (action.type) {
     case RECEIVE_PHYSICIANS:
-      return Object.assign({}, state, action.payload.physicians)
+      return Object.assign({}, state, action.physicians)
     default:
       return state;
   }
