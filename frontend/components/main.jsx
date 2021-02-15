@@ -41,7 +41,7 @@ class Main extends React.Component {
     return (
       <div className="main-container">
         <div className="left-nav">
-          Notable
+          <img className="logo" src={window.logo} alt=""/>
           <PhysicianIndex 
             fetchAppointments={this.props.fetchAppointments}
             physicians={this.props.physicians}

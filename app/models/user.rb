@@ -6,7 +6,7 @@ class User < ApplicationRecord
     foreign_key: :physician_id,
     class_name: "Appointment"
   
-  has_many :doctor_appointments,
+  has_many :physician_appointments,
     foreign_key: :patient_id,
     class_name: "Appointment"
   

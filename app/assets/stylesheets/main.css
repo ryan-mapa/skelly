@@ -1,10 +1,17 @@
 .main-container {
   display: flex;
   flex-direction: row;
+  height: 600px;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 50px;
 }
 
 .left-nav {
   padding: 50px;
+  padding-top: 20px;
   background-color: rgb(228, 227, 227);
   width: 200px;
 }
@@ -24,10 +31,15 @@
 }
 
 .gray {
-  background-color: lightgray;
+  background-color: #F3F3F5;
+  /* background-color: #4085D6; */
 }
 
 h2 {
   font-size: 50px;
   font-weight: bold;
+}
+
+li {
+  margin: 10px;
 }
